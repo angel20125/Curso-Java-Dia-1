@@ -8,11 +8,11 @@
  *
  * @author laboratorio
  */
-public class curso {
+public class ClaseUno {
     protected int cont;
   
     public static void main(String[] args) {
-        curso objCurso = new curso();
+        ClaseUno objCurso = new ClaseUno();
         for (objCurso.cont = 0; objCurso.cont < 10; objCurso.cont++) {
             System.out.println("contador  : "+ objCurso.cont);
         }
